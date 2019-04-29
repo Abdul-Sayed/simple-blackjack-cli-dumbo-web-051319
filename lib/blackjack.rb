@@ -62,6 +62,8 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
+  hit?(initial_round)
+  if ( hit?(initial_round).is_a Integer && hit?(initial_round) > 21 )
+    
 end
     
