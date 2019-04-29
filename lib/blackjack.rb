@@ -31,10 +31,9 @@ end
 
 def initial_round
   #initial_round here
-	deal_card
-	deal_card
 	total = deal_card + deal_card
 	display_card_total(total)
+	return total
 end
 
 def hit?(total)
