@@ -64,6 +64,6 @@ def runner
   welcome
   hit?(initial_round)
   if ( hit?(initial_round).is_a Integer && hit?(initial_round) > 21 )
-    
+    end_game( hit?(initial_round) )
 end
     
